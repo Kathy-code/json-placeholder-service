@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriverService;
  */
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/JsonPlaceHolderService",
         glue = "com.everis.base")
 public class CucumberTestSuit {
 
